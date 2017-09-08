@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*css重置*/
+body,form,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0;}
+html{height: 100%;}
+body{font-size: 12px; font-family: "微软雅黑","宋体", Verdana; position: relative;}
+fieldset,img{border:0;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+table{border-collapse:separate;border-spacing:0;}
+a{text-decoration:none; color: #000;}
+a:hover{ text-decoration:underline;}
+a:focus,input,button,select,textarea{outline:none;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-variant: normal; font-weight: normal;}
+select,img{ vertical-align:middle;}
+legend{ display:none;}
+textarea{resize:none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{ clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both; content:"";display:block;height:0;line-height:0;visibility:hidden;}
+.margin0{margin-right: 0!important;}
+.border0{border: 0!important;}
