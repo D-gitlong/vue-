@@ -107,7 +107,7 @@ export default {
   	}
   },
   created(){
-  	axios.get('static/js/oftenGoods.json')
+  	axios.get('https://d-gitlong.github.io/vue-pos/static/js/oftenGoods.json')
   	.then(response=>{
   		//console.log(response)
   		this.oftenGoods=response.data;
@@ -117,7 +117,7 @@ export default {
   		alert('网络错误，不能访问');
   	})
 
-  	axios.get('static/js/typeGoods.json')
+  	axios.get('https://d-gitlong.github.io/vue-pos/static/js/typeGoods.json')
   	.then(response=>{
   		this.type0Goods=response.data[0];
   		this.type1Goods=response.data[1];
